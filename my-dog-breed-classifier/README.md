@@ -94,4 +94,4 @@ But as expected, accuracy was low **26%** after a training of **50 epochs**.
 I then modified my strategy and I decided to used transfer learning to create a new CNN that can identify dog breed from images. I used one of the most efficient models on the image classification task, which is called Resnet50.
 I only modified the last layers to adapt the architecture to our classification task of 133 classes. 
 
-As expected, the performance of this last version of my CNN performed very well (**86% accuracy**), even with training of **20 epochs**.
+As expected, the performance of this last version of my CNN performed very well (**88% accuracy**), even with training of **20 epochs**.
